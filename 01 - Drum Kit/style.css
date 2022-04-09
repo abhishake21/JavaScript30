@@ -63,3 +63,16 @@ kbd {
     letter-spacing: .1rem;
     color: orange;
 }
+
+
+@media (max-width:500px) {
+    p {
+        font-size: 1.8rem;
+    }
+    .key {
+        margin: 0.5rem;
+    }
+    .keys {
+        margin-top: 2rem;
+    }
+}
