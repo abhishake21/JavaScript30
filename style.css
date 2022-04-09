@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+h1 {
+    display: block;
+    font-size: 2.5rem;
+    margin: 1.5rem 4rem;
+}
+
+a {
+    color: rgb(72, 72, 255);
+    font-size: 2rem;
+}
+
+ul {
+    margin: 0 2rem;
+}
+li {
+    margin: 0.5rem 0;
+}
+
+@media (max-width:500px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+    a {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:560px) {
+    h1 {
+        margin: 1rem .5rem;
+    }
+    ul {
+        margin: 0;
+        padding: 0 1rem;
+    }
+}
