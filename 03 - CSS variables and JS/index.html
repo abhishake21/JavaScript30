@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Update CSS varibles with <span class="h1">JS</span></h1>
+    <br>
+
+    <div class="controls">
+        <li>
+            <label for="spacing">Spacing</label>
+            <input type="range" name="spacing" min="5" max="100" value="10" data-sizing="px">
+        </li>
+
+        <li>
+            <label for="spacing">Blur</label>
+            <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+        </li>
+
+        <li>
+            <label for="spacing">Base Color</label>
+            <input type="color" name="base" value="#ffe600">
+        </li>
+
+        <li>
+            <label for="spacing">Border-radius</label>
+            <input type="range" name="radius" value="10" data-sizing="px" min="0" max="200">
+        </li>
+    </div>
+
+    <div class="image-container"></div>
+
+</body>
+
+</html>
