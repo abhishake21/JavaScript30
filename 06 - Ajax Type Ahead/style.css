@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(21, 21, 21);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+input {
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    border: 2px solid black;
+}
+
+li {
+    background-color: rgb(58, 58, 58);
+    font-size: 1.3rem;
+    margin: 0 10rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    letter-spacing: 0.5px;
+}
+
+.city-state {
+    padding: 0 5px 0 0;
+}
+.divider {
+    padding: 1.5px;
+    margin-right: 4px;
+    background-color: crimson;
+}
+
+
+@media (max-width:1000px) {
+    input {
+        width: 90%;
+    }
+    li {
+        margin: 0 6rem;
+    }
+}
+@media (max-width:800px) {
+    input {
+        width: 100%;
+    }
+    li {
+        margin: 0 3rem;
+    }
+}
+@media (max-width:631px) {
+    li {
+        margin: 0 0.5rem;
+    }
+}
+@media (max-width:537px) {
+    li {
+        margin: 0;
+        font-size: 1rem;
+    }
+    input {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    .population {
+        font-weight: bold;
+    }
+}
