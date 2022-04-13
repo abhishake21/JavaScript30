@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Canvas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <h1>Simple Paint</h1>
+    <hr>
+
+    <div class="stroke-controls">
+        <li>
+            <label for="Width">Stroke Width:</label>
+            <input type="range" name="stroke-width" min="1" max="150" value="10" data-sizing="px">
+        </li>
+        <li>
+            <label for="Color">Color:</label>
+            <input type="color" name="base-color">
+        </li>
+        <li>
+            <label for="crazy">Go crazy:</label>
+            <input type="checkbox" name="crazy-mode">
+        </li>
+    </div>
+
+    <canvas id="draw"></canvas>
+    
+</body>
+</html>
