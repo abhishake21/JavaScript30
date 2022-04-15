@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <h1>FIFA Gameplay</h1>
+
+    <div class="player">
+        <video class="player__video viewer" src="./Video/TOP 10 GOALS - 2018 FIFA World Cup.mp4" autoplay></video>
+   
+        <div class="player__controls">
+          <div class="progress">
+           <div class="progress__filled"></div>
+          </div>
+          <button class="player__button toggle" title="Play/Pause">▶</button>
+          <input type="range" name="volume" class="player__slider" min="0" max="1" step="0.05" title="Volume" value="1">
+          <input type="range" name="playbackRate" class="player__slider" min="0.5" max="2" step="0.1" title="Speed" value="1">
+          <button data-skip="-10" class="player__button" title="Backward 10 secs">« 10s</button>
+          <button data-skip="10" class="player__button" title="Forward 10 secs">10s »</button>
+          <button class="player__button fullscreen" title="Fullscreen">⏹</button>
+        </div>
+      </div>
+
+    
+</body>
+</html>
