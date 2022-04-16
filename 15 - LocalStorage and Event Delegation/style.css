@@ -1,0 +1,56 @@
+body {
+    background: rgb(37, 37, 37);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+li {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.heading {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    background-color: rgb(56, 56, 56);
+    margin: 0.5rem 16rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.logo {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.player {
+    display: flex;
+    gap: 0.3rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.input-box {
+    padding: 0.4rem;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.submit-btn {
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 0.2rem;
+}
