@@ -37,7 +37,7 @@ li {
     padding: 0.8rem;
     border-radius: 0.5rem;
     font-weight: bold;
-    width: 50%;
+    width: 70%;
 
     display: flex;
     justify-content: space-between;
@@ -55,12 +55,15 @@ li {
     border: none;
     border-radius: 0.3rem;
     margin-right: 0.1rem;
+    text-align: center;
 }
 
 .submit-btn {
     padding: 0.4rem 1rem;
     border: none;
     border-radius: 0.2rem;
+    background: skyblue;
+    font-weight: bold;
 }
 
 .players input {
@@ -74,4 +77,28 @@ li {
 
 .players input:checked + label:before {
     content: "⚽";
+}
+
+.delete-all {
+    border: none;
+    padding: 0.3rem 1rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    font-size: 1rem;
+    background: yellow;
+    font-weight: bold;
+}
+
+@media (max-width:600px) {
+    .player {
+        width: 90%;
+    }
+}
+
+@media (max-width:330px) {
+    .add-items {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
 }
