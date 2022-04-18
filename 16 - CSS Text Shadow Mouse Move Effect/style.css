@@ -1,0 +1,18 @@
+body {
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-shadow: 5px -5px 0 rgba(0,0,0,1);
+    font-size: 5rem;
+}
