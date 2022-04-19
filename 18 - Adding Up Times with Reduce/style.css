@@ -1,0 +1,28 @@
+body {
+    background: black;
+    color: white;
+    font-family: sans-serif;
+}
+ul {
+    padding: 0;
+}
+h1 {
+    margin: 1rem;
+}
+
+li {
+    list-style: none;
+    background: rgb(8, 8, 8);
+    padding: 0.6rem 1.5rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+}
+
+span {
+    color: rgb(255, 255, 118);
+}
+
+.total-time {
+    color: yellow;
+}
