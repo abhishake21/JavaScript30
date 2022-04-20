@@ -1,0 +1,48 @@
+body {
+    background: rgb(109, 109, 109);
+    font-family: sans-serif;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+p {
+    line-height: 1.4rem;
+}
+
+.menu {
+    display: flex;
+    gap: 1.8rem;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 0.6rem;
+    color: black;
+    background: rgba(255, 255, 255, 0.155);
+    border-radius: 20px;
+}
+
+.highlight {
+    transition: all 0.2s;
+    position: absolute;
+    top: 0;
+    background: rgb(255, 255, 0);
+    left: 0;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+
+@media (max-width:400px) {
+    .menu {
+        flex-direction: column;
+        align-content: flex-start;
+        padding-left: 1rem;
+    }
+}
