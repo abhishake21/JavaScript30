@@ -1,0 +1,28 @@
+body {
+    background: rgb(36, 36, 36);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.arrow {
+    margin: 1.8rem;
+    width: 25rem;
+    transition: all 0.2s;
+    transform: rotate(0deg);
+}
+
+@media (max-width:490px) {
+    .arrow {
+        width: 18rem;
+    }
+}
+
+@media (max-width:380px) {
+    .arrow {
+        width: 14rem;
+    }
+    .speed {
+        font-size: 1.5rem;
+    }
+}

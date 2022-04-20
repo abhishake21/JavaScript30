@@ -1,0 +1,29 @@
+body {
+    background: rgb(45, 45, 45);
+    color: white;
+    font-family: sans-serif;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.arrow {
+    width: 20rem;
+    transition: all 0.2s;
+    transform: rotate(0deg);
+}
+
+h1 {
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+}
+
+@media (max-width:360px) {
+    .arrow {
+        width: 15rem;
+    }
+}
