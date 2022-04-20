@@ -1,0 +1,43 @@
+body {
+    background: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+    text-decoration: underline yellow;
+}
+
+.words {
+    max-width: 80%;
+    margin: 2rem auto;
+    background: rgb(39, 39, 39);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    border-bottom: 1px rgb(93, 93, 93) solid;
+}
+
+.sub-head {
+    padding-top: 0.8rem;
+    display: block;
+    text-align: center;
+}
+
+@media (max-width:560px) {
+    .words {
+        max-width: 95%;
+    }
+}
+
+@media (max-width:375px) {
+    h1 {
+        font-size: 1.9rem;
+    }
+}
