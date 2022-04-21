@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+  
+*, *:before, *:after { 
+    box-sizing: inherit; 
+}
+
+div {
+    width: 100%;
+    padding: 40px;
+}
+
+.one {
+    background: rgb(245, 161, 245);
+}
+
+.two {
+    background: mistyrose;
+}
+
+.three {
+    background: coral;
+}
+
+
+button {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
